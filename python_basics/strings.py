@@ -36,7 +36,6 @@ print(msg)
 
 #String Methods
 new_course = "Python for beginners"
-
 print(new_course.upper())
 print(len(new_course))
 print(new_course.lower())
