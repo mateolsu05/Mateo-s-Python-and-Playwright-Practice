@@ -139,3 +139,64 @@ for page in pages:
     if page == "/dashboard":
         continue
     print(f"Checking {page}")
+
+
+
+#More function practice (Calculator):
+
+def add (a, b):
+    return a + b
+
+def subtract (a, b):
+    return a - b
+
+def multiply (a, b):
+    return a * b
+
+def divide (a, b):
+    return a / b
+
+def power (a, b):
+    return a ** b
+
+print(add(1,2))
+print(subtract(1,2))
+print(multiply(1,2))
+print(divide(1,2))
+print(power(1,2))
+
+
+#Grade Calculator function
+
+def grade_calc(grade):
+    if grade >= 90:
+        grade = "A"
+        return grade
+    elif grade >= 80:
+        grade = "B"
+        return grade
+    elif grade >= 70:
+        grade = "C"
+        return grade
+    elif grade >= 60:
+        grade = "D"
+        return grade
+    else:
+        grade = "F"
+        return grade
+
+print(grade_calc(95))
+print(grade_calc(85))
+print(grade_calc(75))
+print(grade_calc(65))
+print(grade_calc(55))
+
+
+#Function to add money
+
+def add_display_money(a, b):
+    c = a + b
+    print(c)
+
+
+add_display_money(95, 65)
