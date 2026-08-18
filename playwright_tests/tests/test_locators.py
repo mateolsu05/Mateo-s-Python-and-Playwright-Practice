@@ -21,7 +21,7 @@ def test_locator():
         page.locator("button")
 
     #Find a button that has an ID locator:
-        page.locator("submit")
+        page.locator("#submit")
 
         #Below is find a button using CSS selector:
         #page.locato("button")
