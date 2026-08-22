@@ -22,5 +22,6 @@ def test_day_five():
         page.locator("#add-to-cart-sauce-labs-onesie").click()
         page.locator(".shopping_cart_link").click()
         expect(page.locator(".inventory_item_name")).to_have_text("Sauce Labs Onesie")
+        
 
         browser.close()
